@@ -26,7 +26,7 @@ try {
       throw err;
     } else {
       console.log("Todo created successfully: ", todo);
-      console.log("Now, listing all todos using stream: ");
+      console.log("Now, listing all todos: ");
       client.getAllTodos({}, (err, response) => {
         if (err) {
           console.error("Error in listing todos: ", err);
