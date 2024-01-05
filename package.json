@@ -4,17 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start-server": "node server/index.js",
     "start-client": "node client/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonukiwi/grpc-nodejs-tut.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonukiwi/grpc-nodejs-tut/issues"
+  },
+  "homepage": "https://github.com/sonukiwi/grpc-nodejs-tut#readme",
   "dependencies": {
     "@grpc/grpc-js": "^1.9.13",
-    "@grpc/proto-loader": "^0.7.10",
-    "dotenv": "^16.3.1",
-    "prompt-sync": "^4.2.0"
+    "@grpc/proto-loader": "^0.7.10"
   }
 }
